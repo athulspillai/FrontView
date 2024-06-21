@@ -1,0 +1,173 @@
+.statistics-container {
+    text-align: center;
+}
+
+.statistic {
+    margin-bottom: 20px;
+}
+
+.statistic h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: green;
+}
+
+.statistic p {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: green;
+}
+
+.Company-heading h1{
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.Company-details p {
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+.mission-container {
+    padding: 2rem 0;
+}
+
+.mission-container h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.mission-container p {
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+    font-weight: 800;
+}
+
+.vision-container {
+    padding: 2rem 0;
+}
+
+.vision-container h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.vision-container p {
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+    font-weight: 800;
+}
+
+.company-certificate {
+    padding: 2rem 0;
+}
+
+.company-certificate-heading {
+    margin-bottom: 3rem;
+}
+
+.company-certificate-heading h1 {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.company-certificate-img img {
+    margin: 0.5rem;
+    width: 200px;
+    height: auto;
+}
+
+
+
+
+
+@media (max-width: 767px) {
+
+
+    .statistics-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .statistic {
+        flex: 0 0 50%;
+
+    }
+
+    .statistic h2 {
+        font-size: 0.8em;
+        margin-bottom: 10px;
+        color: green;
+    }
+
+    .statistic p {
+        font-size: 0.8em;
+        font-weight: bold;
+        color: green;
+    }
+
+    .mission-container {
+        text-align: center;
+    }
+
+    .mission-container img {
+        margin-bottom: 20px;
+        width: 65%;
+    }
+
+    .mission-container h2 {
+        text-align: center;
+
+    }
+
+    .mission-container p {
+        text-align: center;
+        padding: 35px;
+        justify-content: center;
+
+    }
+
+    .vision-container {
+        text-align: center;
+    }
+
+    .vision-container img {
+        margin-bottom: 20px;
+        width: 65%;
+    }
+
+    .vision-container h2 {
+        text-align: center;
+
+    }
+
+    .vision-container p {
+        text-align: center;
+        padding: 35px;
+        justify-content: center;
+
+    }
+
+    .company-certificate-img {
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .company-certificate-img img {
+        flex: 1 1 45%;
+        max-width: 45%;
+    }
+
+
+
+
+
+
+}

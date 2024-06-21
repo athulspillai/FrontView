@@ -1,0 +1,105 @@
+
+.our-services {
+    margin-top: 75px;
+    padding-bottom: 30px;
+    padding: 0 60px;
+    min-height: 198px;
+    text-align: center;
+    border-radius: 10px;
+    transition: all .4s ease-in-out;
+    box-shadow: 5px 5px 0px 0 whitesmoke;
+}
+
+.our-services-title h1 {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.card {
+    border-radius: 10px;
+    transition: all 0.4s ease-in-out;
+    border: 0.1px solid whitesmoke;
+    
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.card .icon img {
+    width: 50px;
+}
+
+.card-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: green;
+    text-align: center;
+}
+
+.card-text {
+    font-size: 15px;
+    color: green;
+}
+
+.card:hover {
+    box-shadow: 2px 2px 2px 2px green;
+    cursor: pointer;
+    border: none;
+}
+
+.client-logo img {
+    width: 10%;
+    background-color: white;
+}
+
+.our-client .client-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px; 
+}
+
+.our-client .client-logo img {
+    width: 130px; 
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .our-services {
+        padding: 0 15px;
+    }
+
+    .our-services-title h1 {
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+
+    .card-text {
+        font-size: 0.5rem;
+    }
+
+    .card-title {
+        font-size: 0.8rem;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .col-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .our-client .client-logo img {
+        width: 100px; 
+    }
+}
+
+
+
+
+
+

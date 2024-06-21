@@ -1,0 +1,48 @@
+
+
+.bg-body-tertiary{
+    background-color: transparent;
+}
+
+
+.navbar-brand img {
+    height: 70px;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: var(--bs-dropdown-link-active-color);
+    text-decoration: none;
+    background-color: white;
+}
+
+.navbar-link {
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.navbar-link:hover{
+    color: green;
+}
+
+.mx-4 {
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+.mx-4:hover{
+    color: green;
+}
+
+.NavDropdown:hover{
+    color: green;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .navbar-link {
+        font-size: 0.8rem;
+    }
+    
+}

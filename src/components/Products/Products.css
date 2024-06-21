@@ -1,0 +1,28 @@
+.product-card {
+    margin-bottom: 30px;
+}
+
+.product-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+
+@media (max-width: 767px) {
+    .banner-head .order-md-2 {
+        order: -1;
+    }
+
+    .banner-head .order-md-1 {
+        order: 1;
+    }
+    .product-card {
+        margin-bottom: 15px;
+    }
+
+    .product-card img {
+        height: 100%;
+        width: 100%;
+    }
+
+}
